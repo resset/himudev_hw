@@ -1,0 +1,4 @@
+(sym_lib_table
+  (lib (name himudev-cache)(type Legacy)(uri ${KIPRJMOD}/himudev-cache.lib)(options "")(descr ""))
+  (lib (name himudev)(type Legacy)(uri ${KIPRJMOD}/himudev.lib)(options "")(descr ""))
+)
