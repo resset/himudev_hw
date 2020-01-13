@@ -1,3 +1,9 @@
 EESchema-DOCLIB  Version 2.0
 #
+$CMP BMP388
+D Absolute Barometric Pressure Sensor, LGA-8
+K I2C, SPI, pressure, temperature, sensor
+F https://www.bosch-sensortec.com/media/boschsensortec/downloads/environmental_sensors_2/pressure_sensors_1/bmp388/bst-bmp388-ds001.pdf
+$ENDCMP
+#
 #End Doc Library

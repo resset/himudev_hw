@@ -326,63 +326,25 @@ Connection ~ 9800 5200
 $Comp
 L Connector_Generic:Conn_01x02 J?
 U 1 1 5DFF4FF6
-P 1500 4950
-F 0 "J?" H 1500 5150 50  0000 C CNN
-F 1 "Conn_01x02" H 1650 5050 50  0000 C CNN
-F 2 "" H 1500 4950 50  0001 C CNN
-F 3 "~" H 1500 4950 50  0001 C CNN
-	1    1500 4950
+P 1150 4950
+F 0 "J?" H 1150 5150 50  0000 C CNN
+F 1 "Conn_01x02" H 1300 5050 50  0000 C CNN
+F 2 "" H 1150 4950 50  0001 C CNN
+F 3 "~" H 1150 4950 50  0001 C CNN
+	1    1150 4950
 	-1   0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR?
-U 1 1 5E001451
-P 2000 5650
-F 0 "#PWR?" H 2000 5400 50  0001 C CNN
-F 1 "GND" H 2005 5477 50  0000 C CNN
-F 2 "" H 2000 5650 50  0001 C CNN
-F 3 "" H 2000 5650 50  0001 C CNN
-	1    2000 5650
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	1700 5050 1800 5050
-$Comp
 L Device:D D?
 U 1 1 5E00863F
-P 1950 4950
-F 0 "D?" H 1950 4734 50  0000 C CNN
-F 1 "NSR05T40XV2T5G" H 1950 4825 50  0000 C CNN
-F 2 "" H 1950 4950 50  0001 C CNN
-F 3 "~" H 1950 4950 50  0001 C CNN
-	1    1950 4950
+P 1850 4950
+F 0 "D?" H 1850 4734 50  0000 C CNN
+F 1 "NSR05T40XV2T5G" H 1850 4825 50  0000 C CNN
+F 2 "" H 1850 4950 50  0001 C CNN
+F 3 "~" H 1850 4950 50  0001 C CNN
+	1    1850 4950
 	-1   0    0    1   
 $EndComp
-Wire Wire Line
-	1700 4950 1800 4950
-Wire Wire Line
-	2100 4950 2200 4950
-Wire Wire Line
-	2000 5600 2000 5650
-Connection ~ 2000 5600
-Wire Wire Line
-	2000 5600 1800 5600
-$Comp
-L power:+5V #PWR?
-U 1 1 5E025121
-P 2400 4850
-F 0 "#PWR?" H 2400 4700 50  0001 C CNN
-F 1 "+5V" H 2415 5023 50  0000 C CNN
-F 2 "" H 2400 4850 50  0001 C CNN
-F 3 "" H 2400 4850 50  0001 C CNN
-	1    2400 4850
-	1    0    0    -1  
-$EndComp
-Connection ~ 2200 4950
-Wire Wire Line
-	2400 4950 2400 4850
-Wire Wire Line
-	2200 4950 2400 4950
 Wire Wire Line
 	6000 5150 6000 5200
 Connection ~ 6000 5150
@@ -539,22 +501,6 @@ F 2 "" H 3650 4800 50  0001 C CNN
 F 3 "" H 3650 4800 50  0001 C CNN
 	1    3650 4800
 	1    0    0    -1  
-$EndComp
-Connection ~ 1650 1550
-Wire Wire Line
-	1650 1650 1650 1550
-Wire Wire Line
-	1650 1550 1650 1450
-$Comp
-L Connector:TestPoint TP?
-U 1 1 5E112EE5
-P 1650 1650
-F 0 "TP?" H 1592 1676 50  0000 R CNN
-F 1 "VBUS" H 1592 1767 50  0000 R CNN
-F 2 "" H 1850 1650 50  0001 C CNN
-F 3 "~" H 1850 1650 50  0001 C CNN
-	1    1650 1650
-	-1   0    0    1   
 $EndComp
 Wire Wire Line
 	3350 2950 3350 3100
@@ -775,33 +721,30 @@ $EndComp
 Text Notes 2850 1050 0    50   ~ 0
 CBUS3 has to be configured as a PWREN# signal.\nI/O pins pull-down in suspend mode option must be enabled.\n\nAlso, for this particular project, max bus power current must be set to 500 mA.
 Wire Wire Line
-	6700 1550 6700 1600
-Connection ~ 6700 1550
-Connection ~ 6250 1550
+	7050 1550 7050 1600
+Connection ~ 7050 1550
 Wire Wire Line
-	6250 1550 6700 1550
-Wire Wire Line
-	6700 1450 6700 1550
+	7050 1450 7050 1550
 $Comp
 L power:+5V #PWR0121
 U 1 1 5E1BDF2F
-P 6700 1450
-F 0 "#PWR0121" H 6700 1300 50  0001 C CNN
-F 1 "+5V" H 6715 1623 50  0000 C CNN
-F 2 "" H 6700 1450 50  0001 C CNN
-F 3 "" H 6700 1450 50  0001 C CNN
-	1    6700 1450
+P 7050 1450
+F 0 "#PWR0121" H 7050 1300 50  0001 C CNN
+F 1 "+5V" H 7065 1623 50  0000 C CNN
+F 2 "" H 7050 1450 50  0001 C CNN
+F 3 "" H 7050 1450 50  0001 C CNN
+	1    7050 1450
 	1    0    0    -1  
 $EndComp
 $Comp
 L Connector:TestPoint TP?
 U 1 1 5E11FBF7
-P 6700 1600
-F 0 "TP?" H 6642 1626 50  0000 R CNN
-F 1 "5V" H 6642 1717 50  0000 R CNN
-F 2 "" H 6900 1600 50  0001 C CNN
-F 3 "~" H 6900 1600 50  0001 C CNN
-	1    6700 1600
+P 7050 1600
+F 0 "TP?" H 6992 1626 50  0000 R CNN
+F 1 "5V" H 6992 1717 50  0000 R CNN
+F 2 "" H 7250 1600 50  0001 C CNN
+F 3 "~" H 7250 1600 50  0001 C CNN
+	1    7050 1600
 	-1   0    0    1   
 $EndComp
 $Comp
@@ -814,17 +757,6 @@ F 2 "" H 1400 3200 50  0001 C CNN
 F 3 "~" H 1400 3200 50  0001 C CNN
 	1    1200 3200
 	-1   0    0    1   
-$EndComp
-$Comp
-L power:VBUS #PWR0106
-U 1 1 5DFEE0B5
-P 1650 1450
-F 0 "#PWR0106" H 1650 1300 50  0001 C CNN
-F 1 "VBUS" H 1665 1623 50  0000 C CNN
-F 2 "" H 1650 1450 50  0001 C CNN
-F 3 "" H 1650 1450 50  0001 C CNN
-	1    1650 1450
-	1    0    0    -1  
 $EndComp
 $Comp
 L Connector:TestPoint TP?
@@ -994,56 +926,6 @@ $EndComp
 Connection ~ 2850 1950
 Wire Wire Line
 	2850 2000 2850 1950
-$Comp
-L power:GND #PWR0104
-U 1 1 5E17F1DD
-P 2850 2000
-F 0 "#PWR0104" H 2850 1750 50  0001 C CNN
-F 1 "GND" H 2855 1827 50  0000 C CNN
-F 2 "" H 2850 2000 50  0001 C CNN
-F 3 "" H 2850 2000 50  0001 C CNN
-	1    2850 2000
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	2850 1950 2850 1900
-Wire Wire Line
-	2400 1950 2850 1950
-Wire Wire Line
-	2400 1900 2400 1950
-$Comp
-L Device:C C?
-U 1 1 5E17DCC7
-P 2850 1750
-F 0 "C?" H 2965 1796 50  0000 L CNN
-F 1 "0.1uF" H 2965 1705 50  0000 L CNN
-F 2 "" H 2888 1600 50  0001 C CNN
-F 3 "~" H 2850 1750 50  0001 C CNN
-	1    2850 1750
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:C C?
-U 1 1 5E17D371
-P 2400 1750
-F 0 "C?" H 2515 1796 50  0000 L CNN
-F 1 "4.7uF" H 2515 1705 50  0000 L CNN
-F 2 "" H 2438 1600 50  0001 C CNN
-F 3 "~" H 2400 1750 50  0001 C CNN
-	1    2400 1750
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:Ferrite_Bead_Small FB?
-U 1 1 5E17B544
-P 1950 2050
-F 0 "FB?" H 1800 2050 50  0000 C CNN
-F 1 "MI0805K601R-10" H 1550 2150 50  0000 C CNN
-F 2 "" V 1880 2050 50  0001 C CNN
-F 3 "~" H 1950 2050 50  0001 C CNN
-	1    1950 2050
-	-1   0    0    1   
-$EndComp
 Wire Wire Line
 	5150 2000 5150 2050
 $Comp
@@ -1166,52 +1048,12 @@ Wire Wire Line
 Wire Wire Line
 	7850 2900 7950 2900
 Wire Wire Line
-	1650 1550 1950 1550
-Connection ~ 1950 1550
-Wire Wire Line
-	1950 1550 2400 1550
-Wire Wire Line
-	1950 1550 1950 1950
-Wire Wire Line
-	1950 2150 1950 2350
-Connection ~ 1950 2350
-Wire Wire Line
-	2850 1600 2850 1550
-Connection ~ 2850 1550
-Wire Wire Line
-	2400 1600 2400 1550
-Connection ~ 2400 1550
-Wire Wire Line
-	2400 1550 2850 1550
-Wire Wire Line
 	3350 2150 3350 2950
-Wire Wire Line
-	2850 1550 3350 1550
 Wire Wire Line
 	3350 1850 3350 1550
 Connection ~ 3350 1550
 Wire Wire Line
 	3350 1550 4400 1550
-$Comp
-L Power_Protection:SP0502BAHT D?
-U 1 1 5E0B8F23
-P 2300 5300
-F 0 "D?" H 2505 5346 50  0000 L CNN
-F 1 "SP0502BAHT" H 2505 5255 50  0000 L CNN
-F 2 "Package_TO_SOT_SMD:SOT-23" H 2525 5250 50  0001 L CNN
-F 3 "http://www.littelfuse.com/~/media/files/littelfuse/technical%20resources/documents/data%20sheets/sp05xxba.pdf" H 2425 5425 50  0001 C CNN
-	1    2300 5300
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	2300 5500 2300 5600
-Wire Wire Line
-	2000 5600 2300 5600
-Wire Wire Line
-	1800 5600 1800 5050
-Wire Wire Line
-	2200 4950 2200 5100
-NoConn ~ 2400 5100
 $Comp
 L himudev:MCP1726-3302ESN U?
 U 1 1 5E003F55
@@ -1251,4 +1093,192 @@ Wire Wire Line
 	9100 2650 8650 2650
 Wire Wire Line
 	8650 2650 8650 2700
+Text GLabel 1350 4600 0    50   Input ~ 0
+VIN
+Wire Wire Line
+	1350 5050 1450 5050
+Wire Wire Line
+	1350 4950 1450 4950
+Wire Wire Line
+	1350 4600 1450 4600
+Wire Wire Line
+	1450 4600 1450 4950
+Wire Wire Line
+	1700 4950 1450 4950
+Connection ~ 1450 4950
+$Comp
+L power:VBUS #PWR0106
+U 1 1 5DFEE0B5
+P 1650 1450
+F 0 "#PWR0106" H 1650 1300 50  0001 C CNN
+F 1 "VBUS" H 1665 1623 50  0000 C CNN
+F 2 "" H 1650 1450 50  0001 C CNN
+F 3 "" H 1650 1450 50  0001 C CNN
+	1    1650 1450
+	1    0    0    -1  
+$EndComp
+Connection ~ 1950 2350
+Wire Wire Line
+	1650 1550 1650 1450
+Wire Wire Line
+	1650 1650 1650 1550
+Connection ~ 1650 1550
+Wire Wire Line
+	1650 1550 1950 1550
+$Comp
+L Connector:TestPoint TP?
+U 1 1 5E112EE5
+P 1650 1650
+F 0 "TP?" H 1592 1676 50  0000 R CNN
+F 1 "VBUS" H 1592 1767 50  0000 R CNN
+F 2 "" H 1850 1650 50  0001 C CNN
+F 3 "~" H 1850 1650 50  0001 C CNN
+	1    1650 1650
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	1950 2150 1950 2350
+Wire Wire Line
+	1950 1550 1950 1950
+$Comp
+L Device:Ferrite_Bead_Small FB?
+U 1 1 5E17B544
+P 1950 2050
+F 0 "FB?" H 1800 2050 50  0000 C CNN
+F 1 "MI0805K601R-10" H 1550 2150 50  0000 C CNN
+F 2 "" V 1880 2050 50  0001 C CNN
+F 3 "~" H 1950 2050 50  0001 C CNN
+	1    1950 2050
+	-1   0    0    1   
+$EndComp
+$Comp
+L power:GND #PWR0104
+U 1 1 5E17F1DD
+P 2850 2000
+F 0 "#PWR0104" H 2850 1750 50  0001 C CNN
+F 1 "GND" H 2855 1827 50  0000 C CNN
+F 2 "" H 2850 2000 50  0001 C CNN
+F 3 "" H 2850 2000 50  0001 C CNN
+	1    2850 2000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2850 1550 3350 1550
+Wire Wire Line
+	2850 1600 2850 1550
+Wire Wire Line
+	2850 1950 2850 1900
+Connection ~ 1950 1550
+$Comp
+L Device:C C?
+U 1 1 5E17DCC7
+P 2850 1750
+F 0 "C?" H 2965 1796 50  0000 L CNN
+F 1 "0.1uF" H 2965 1705 50  0000 L CNN
+F 2 "" H 2888 1600 50  0001 C CNN
+F 3 "~" H 2850 1750 50  0001 C CNN
+	1    2850 1750
+	1    0    0    -1  
+$EndComp
+Connection ~ 2850 1550
+Wire Wire Line
+	2400 1550 2850 1550
+Connection ~ 2400 1550
+Wire Wire Line
+	2400 1600 2400 1550
+Wire Wire Line
+	1950 1550 2400 1550
+Wire Wire Line
+	2400 1950 2850 1950
+Wire Wire Line
+	2400 1900 2400 1950
+$Comp
+L Device:C C?
+U 1 1 5E17D371
+P 2400 1750
+F 0 "C?" H 2515 1796 50  0000 L CNN
+F 1 "4.7uF" H 2515 1705 50  0000 L CNN
+F 2 "" H 2438 1600 50  0001 C CNN
+F 3 "~" H 2400 1750 50  0001 C CNN
+	1    2400 1750
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2000 4950 2200 4950
+NoConn ~ 2400 5100
+Wire Wire Line
+	2200 4950 2200 5100
+$Comp
+L Power_Protection:SP0502BAHT D?
+U 1 1 5E0B8F23
+P 2300 5300
+F 0 "D?" H 2505 5346 50  0000 L CNN
+F 1 "SP0502BAHT" H 2505 5255 50  0000 L CNN
+F 2 "Package_TO_SOT_SMD:SOT-23" H 2525 5250 50  0001 L CNN
+F 3 "http://www.littelfuse.com/~/media/files/littelfuse/technical%20resources/documents/data%20sheets/sp05xxba.pdf" H 2425 5425 50  0001 C CNN
+	1    2300 5300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2200 4950 2400 4950
+Wire Wire Line
+	2400 4950 2400 4850
+Connection ~ 2200 4950
+Wire Wire Line
+	2300 5500 2300 5600
+Wire Wire Line
+	2300 5600 1850 5600
+Wire Wire Line
+	1450 5050 1450 5600
+$Comp
+L power:GND #PWR?
+U 1 1 5E3D5736
+P 1850 5700
+F 0 "#PWR?" H 1850 5450 50  0001 C CNN
+F 1 "GND" H 1855 5527 50  0000 C CNN
+F 2 "" H 1850 5700 50  0001 C CNN
+F 3 "" H 1850 5700 50  0001 C CNN
+	1    1850 5700
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1850 5700 1850 5600
+Connection ~ 1850 5600
+Wire Wire Line
+	1850 5600 1450 5600
+$Comp
+L Device:R R?
+U 1 1 5E3EB6F3
+P 6700 1750
+F 0 "R?" H 6770 1796 50  0000 L CNN
+F 1 "100k" H 6770 1705 50  0000 L CNN
+F 2 "" V 6630 1750 50  0001 C CNN
+F 3 "~" H 6700 1750 50  0001 C CNN
+	1    6700 1750
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6250 1550 6700 1550
+Connection ~ 6250 1550
+Wire Wire Line
+	6250 1950 6700 1950
+Wire Wire Line
+	6700 1950 6700 1900
+Connection ~ 6250 1950
+Wire Wire Line
+	6700 1600 6700 1550
+Connection ~ 6700 1550
+Wire Wire Line
+	6700 1550 7050 1550
+$Comp
+L power:VBUS #PWR?
+U 1 1 5E4F03C7
+P 2400 4850
+F 0 "#PWR?" H 2400 4700 50  0001 C CNN
+F 1 "VBUS" H 2415 5023 50  0000 C CNN
+F 2 "" H 2400 4850 50  0001 C CNN
+F 3 "" H 2400 4850 50  0001 C CNN
+	1    2400 4850
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
