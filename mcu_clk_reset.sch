@@ -944,26 +944,6 @@ Wire Wire Line
 Wire Wire Line
 	1450 1200 2400 1200
 $Comp
-L dk_Tactile-Switches:B3F-1000 S1
-U 1 1 5E4118E2
-P 1500 6600
-F 0 "S1" H 1500 6947 60  0000 C CNN
-F 1 "B3F-1000" H 1500 6841 60  0000 C CNN
-F 2 "digikey-footprints:Switch_Tactile_THT_B3F-1xxx" H 1700 6800 60  0001 L CNN
-F 3 "https://omronfs.omron.com/en_US/ecb/products/pdf/en-b3f.pdf" H 1700 6900 60  0001 L CNN
-F 4 "SW400-ND" H 1700 7000 60  0001 L CNN "Digi-Key_PN"
-F 5 "B3F-1000" H 1700 7100 60  0001 L CNN "MPN"
-F 6 "Switches" H 1700 7200 60  0001 L CNN "Category"
-F 7 "Tactile Switches" H 1700 7300 60  0001 L CNN "Family"
-F 8 "https://omronfs.omron.com/en_US/ecb/products/pdf/en-b3f.pdf" H 1700 7400 60  0001 L CNN "DK_Datasheet_Link"
-F 9 "/product-detail/en/omron-electronics-inc-emc-div/B3F-1000/SW400-ND/33150" H 1700 7500 60  0001 L CNN "DK_Detail_Page"
-F 10 "SWITCH TACTILE SPST-NO 0.05A 24V" H 1700 7600 60  0001 L CNN "Description"
-F 11 "Omron Electronics Inc-EMC Div" H 1700 7700 60  0001 L CNN "Manufacturer"
-F 12 "Active" H 1700 7800 60  0001 L CNN "Status"
-	1    1500 6600
-	1    0    0    -1  
-$EndComp
-$Comp
 L Device:R R29
 U 1 1 5E413187
 P 1250 2650
@@ -1113,7 +1093,7 @@ F 3 "~" H 1000 6750 50  0001 C CNN
 $EndComp
 Text Label 900  6500 2    50   ~ 0
 WAKE
-Text Label 2400 6500 2    50   ~ 0
+Text Label 2950 6500 2    50   ~ 0
 nRESET
 Wire Wire Line
 	1700 6500 1800 6500
@@ -1199,104 +1179,84 @@ Wire Wire Line
 Wire Wire Line
 	10200 4500 10400 4500
 $Comp
-L dk_Tactile-Switches:B3F-1000 S2
-U 1 1 5E66799D
-P 3100 6600
-F 0 "S2" H 3100 6947 60  0000 C CNN
-F 1 "B3F-1000" H 3100 6841 60  0000 C CNN
-F 2 "digikey-footprints:Switch_Tactile_THT_B3F-1xxx" H 3300 6800 60  0001 L CNN
-F 3 "https://omronfs.omron.com/en_US/ecb/products/pdf/en-b3f.pdf" H 3300 6900 60  0001 L CNN
-F 4 "SW400-ND" H 3300 7000 60  0001 L CNN "Digi-Key_PN"
-F 5 "B3F-1000" H 3300 7100 60  0001 L CNN "MPN"
-F 6 "Switches" H 3300 7200 60  0001 L CNN "Category"
-F 7 "Tactile Switches" H 3300 7300 60  0001 L CNN "Family"
-F 8 "https://omronfs.omron.com/en_US/ecb/products/pdf/en-b3f.pdf" H 3300 7400 60  0001 L CNN "DK_Datasheet_Link"
-F 9 "/product-detail/en/omron-electronics-inc-emc-div/B3F-1000/SW400-ND/33150" H 3300 7500 60  0001 L CNN "DK_Detail_Page"
-F 10 "SWITCH TACTILE SPST-NO 0.05A 24V" H 3300 7600 60  0001 L CNN "Description"
-F 11 "Omron Electronics Inc-EMC Div" H 3300 7700 60  0001 L CNN "Manufacturer"
-F 12 "Active" H 3300 7800 60  0001 L CNN "Status"
-	1    3100 6600
-	1    0    0    -1  
-$EndComp
-$Comp
 L Device:D_TVS D10
 U 1 1 5E6679A3
-P 2500 6750
-F 0 "D10" V 2454 6829 50  0000 L CNN
-F 1 "PESD0603-240" V 2545 6829 50  0000 L CNN
-F 2 "Diode_SMD:D_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 2500 6750 50  0001 C CNN
-F 3 "~" H 2500 6750 50  0001 C CNN
-	1    2500 6750
+P 3050 6750
+F 0 "D10" V 3004 6829 50  0000 L CNN
+F 1 "PESD0603-240" V 3095 6829 50  0000 L CNN
+F 2 "Diode_SMD:D_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 3050 6750 50  0001 C CNN
+F 3 "~" H 3050 6750 50  0001 C CNN
+	1    3050 6750
 	0    1    1    0   
 $EndComp
 Wire Wire Line
-	3300 6500 3400 6500
+	3850 6500 3950 6500
 Wire Wire Line
-	3400 6500 3400 6700
+	3950 6500 3950 6700
 Wire Wire Line
-	3400 6700 3300 6700
+	3950 6700 3850 6700
 $Comp
 L power:GND #PWR038
 U 1 1 5E6679AD
-P 3400 6800
-F 0 "#PWR038" H 3400 6550 50  0001 C CNN
-F 1 "GND" H 3405 6627 50  0000 C CNN
-F 2 "" H 3400 6800 50  0001 C CNN
-F 3 "" H 3400 6800 50  0001 C CNN
-	1    3400 6800
+P 3950 6800
+F 0 "#PWR038" H 3950 6550 50  0001 C CNN
+F 1 "GND" H 3955 6627 50  0000 C CNN
+F 2 "" H 3950 6800 50  0001 C CNN
+F 3 "" H 3950 6800 50  0001 C CNN
+	1    3950 6800
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	3400 6800 3400 6700
-Connection ~ 3400 6700
+	3950 6800 3950 6700
+Connection ~ 3950 6700
 Wire Wire Line
-	2800 6700 2900 6700
+	3350 6700 3450 6700
 $Comp
 L Device:R R31
 U 1 1 5E6679B8
-P 2500 6250
-F 0 "R31" H 2570 6296 50  0000 L CNN
-F 1 "100k" H 2570 6205 50  0000 L CNN
-F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 2430 6250 50  0001 C CNN
-F 3 "~" H 2500 6250 50  0001 C CNN
-	1    2500 6250
+P 3050 6250
+F 0 "R31" H 3120 6296 50  0000 L CNN
+F 1 "100k" H 3120 6205 50  0000 L CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 2980 6250 50  0001 C CNN
+F 3 "~" H 3050 6250 50  0001 C CNN
+	1    3050 6250
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	2500 6400 2500 6500
-Connection ~ 2500 6500
+	3050 6400 3050 6500
+Connection ~ 3050 6500
 Wire Wire Line
-	2500 6500 2500 6600
+	3050 6500 3050 6600
 Wire Wire Line
-	2400 6500 2500 6500
+	2950 6500 3050 6500
 $Comp
 L power:GND #PWR034
 U 1 1 5E6679C4
-P 2500 7000
-F 0 "#PWR034" H 2500 6750 50  0001 C CNN
-F 1 "GND" H 2505 6827 50  0000 C CNN
-F 2 "" H 2500 7000 50  0001 C CNN
-F 3 "" H 2500 7000 50  0001 C CNN
-	1    2500 7000
+P 3050 7000
+F 0 "#PWR034" H 3050 6750 50  0001 C CNN
+F 1 "GND" H 3055 6827 50  0000 C CNN
+F 2 "" H 3050 7000 50  0001 C CNN
+F 3 "" H 3050 7000 50  0001 C CNN
+	1    3050 7000
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	2500 7000 2500 6900
+	3050 7000 3050 6900
 $Comp
 L power:+3V3 #PWR?
 U 1 1 5E6679CB
-P 2500 6000
+P 3050 6000
 AR Path="/5E6679CB" Ref="#PWR?"  Part="1" 
 AR Path="/5E14DB51/5E6679CB" Ref="#PWR033"  Part="1" 
-F 0 "#PWR033" H 2500 5850 50  0001 C CNN
-F 1 "+3V3" H 2515 6173 50  0000 C CNN
-F 2 "" H 2500 6000 50  0001 C CNN
-F 3 "" H 2500 6000 50  0001 C CNN
-	1    2500 6000
+F 0 "#PWR033" H 3050 5850 50  0001 C CNN
+F 1 "+3V3" H 3065 6173 50  0000 C CNN
+F 2 "" H 3050 6000 50  0001 C CNN
+F 3 "" H 3050 6000 50  0001 C CNN
+	1    3050 6000
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	2500 6000 2500 6100
+	3050 6000 3050 6100
 Wire Wire Line
 	3000 3900 2750 3900
 Connection ~ 3000 3900
@@ -1912,10 +1872,50 @@ Wire Wire Line
 	6500 2000 5650 2000
 Connection ~ 5650 2000
 Wire Wire Line
-	2500 6500 2800 6500
+	3050 6500 3350 6500
 Wire Wire Line
-	2800 6700 2800 6500
-Connection ~ 2800 6500
+	3350 6700 3350 6500
+Connection ~ 3350 6500
 Wire Wire Line
-	2800 6500 2900 6500
+	3350 6500 3450 6500
+$Comp
+L dk_Tactile-Switches:PTS645SM43SMTR92_LFS S2
+U 1 1 5E1F577A
+P 3650 6600
+F 0 "S2" H 3550 6950 60  0000 C CNN
+F 1 "PTS645SM43SMTR92_LFS" H 4050 6850 60  0000 C CNN
+F 2 "digikey-footprints:Switch_Tactile_SMD_6x6mm_PTS645" H 3850 6800 60  0001 L CNN
+F 3 "https://www.ckswitches.com/media/1471/pts645.pdf" H 3850 6900 60  0001 L CNN
+F 4 "CKN9112CT-ND" H 3850 7000 60  0001 L CNN "Digi-Key_PN"
+F 5 "PTS645SM43SMTR92 LFS" H 3850 7100 60  0001 L CNN "MPN"
+F 6 "Switches" H 3850 7200 60  0001 L CNN "Category"
+F 7 "Tactile Switches" H 3850 7300 60  0001 L CNN "Family"
+F 8 "https://www.ckswitches.com/media/1471/pts645.pdf" H 3850 7400 60  0001 L CNN "DK_Datasheet_Link"
+F 9 "/product-detail/en/c-k/PTS645SM43SMTR92-LFS/CKN9112CT-ND/1146934" H 3850 7500 60  0001 L CNN "DK_Detail_Page"
+F 10 "SWITCH TACTILE SPST-NO 0.05A 12V" H 3850 7600 60  0001 L CNN "Description"
+F 11 "C&K" H 3850 7700 60  0001 L CNN "Manufacturer"
+F 12 "Active" H 3850 7800 60  0001 L CNN "Status"
+	1    3650 6600
+	1    0    0    -1  
+$EndComp
+$Comp
+L dk_Tactile-Switches:PTS645SM43SMTR92_LFS S1
+U 1 1 5E1F7DD3
+P 1500 6600
+F 0 "S1" H 1400 6950 60  0000 C CNN
+F 1 "PTS645SM43SMTR92_LFS" H 1900 6850 60  0000 C CNN
+F 2 "digikey-footprints:Switch_Tactile_SMD_6x6mm_PTS645" H 1700 6800 60  0001 L CNN
+F 3 "https://www.ckswitches.com/media/1471/pts645.pdf" H 1700 6900 60  0001 L CNN
+F 4 "CKN9112CT-ND" H 1700 7000 60  0001 L CNN "Digi-Key_PN"
+F 5 "PTS645SM43SMTR92 LFS" H 1700 7100 60  0001 L CNN "MPN"
+F 6 "Switches" H 1700 7200 60  0001 L CNN "Category"
+F 7 "Tactile Switches" H 1700 7300 60  0001 L CNN "Family"
+F 8 "https://www.ckswitches.com/media/1471/pts645.pdf" H 1700 7400 60  0001 L CNN "DK_Datasheet_Link"
+F 9 "/product-detail/en/c-k/PTS645SM43SMTR92-LFS/CKN9112CT-ND/1146934" H 1700 7500 60  0001 L CNN "DK_Detail_Page"
+F 10 "SWITCH TACTILE SPST-NO 0.05A 12V" H 1700 7600 60  0001 L CNN "Description"
+F 11 "C&K" H 1700 7700 60  0001 L CNN "Manufacturer"
+F 12 "Active" H 1700 7800 60  0001 L CNN "Status"
+	1    1500 6600
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
