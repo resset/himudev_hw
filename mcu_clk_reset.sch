@@ -1035,30 +1035,29 @@ $EndComp
 $Comp
 L power:GND #PWR?
 U 1 1 5E51E4AD
-P 9950 5950
+P 9950 5850
 AR Path="/5E51E4AD" Ref="#PWR?"  Part="1" 
 AR Path="/5E14DB51/5E51E4AD" Ref="#PWR054"  Part="1" 
-F 0 "#PWR054" H 9950 5700 50  0001 C CNN
-F 1 "GND" H 9955 5777 50  0000 C CNN
-F 2 "" H 9950 5950 50  0001 C CNN
-F 3 "" H 9950 5950 50  0001 C CNN
-	1    9950 5950
+F 0 "#PWR054" H 9950 5600 50  0001 C CNN
+F 1 "GND" H 9955 5677 50  0000 C CNN
+F 2 "" H 9950 5850 50  0001 C CNN
+F 3 "" H 9950 5850 50  0001 C CNN
+	1    9950 5850
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	9950 5950 9950 5850
+	9950 5850 9950 5750
 Wire Wire Line
-	9950 5850 10300 5850
+	9950 5750 10300 5750
 Wire Wire Line
-	9950 5850 9600 5850
-Connection ~ 9950 5850
+	9950 5750 9600 5750
+Connection ~ 9950 5750
 Wire Wire Line
 	10200 4200 10300 4200
 Wire Wire Line
 	10300 4200 10300 4400
 Wire Wire Line
 	10200 4400 10300 4400
-Connection ~ 10300 4400
 Wire Wire Line
 	9700 4400 9600 4400
 Wire Wire Line
@@ -1353,31 +1352,8 @@ Text Label 9500 4600 2    50   ~ 0
 PMU_OUT_0
 Text Label 10400 4600 0    50   ~ 0
 PMU_OUT_1
-$Comp
-L Connector_Generic:Conn_02x17_Odd_Even J5
-U 1 1 5E8C93BF
-P 9900 4900
-F 0 "J5" H 9950 5917 50  0000 C CNN
-F 1 "M20-8762042" H 9950 5826 50  0000 C CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_2x17_P2.54mm_Vertical_SMD" H 9900 4900 50  0001 C CNN
-F 3 "~" H 9900 4900 50  0001 C CNN
-	1    9900 4900
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
-	10300 4400 10300 5700
-Wire Wire Line
-	9600 4400 9600 5700
-Wire Wire Line
-	9700 5700 9600 5700
-Connection ~ 9600 5700
-Wire Wire Line
-	9600 5700 9600 5850
-Wire Wire Line
-	10200 5700 10300 5700
-Connection ~ 10300 5700
-Wire Wire Line
-	10300 5700 10300 5850
+	9600 4400 9600 4700
 Wire Wire Line
 	10400 5600 10200 5600
 Wire Wire Line
@@ -1420,7 +1396,6 @@ Wire Wire Line
 	9500 5500 9700 5500
 Wire Wire Line
 	9700 5600 9500 5600
-NoConn ~ 9700 4700
 Wire Wire Line
 	5600 3800 6100 3800
 Wire Wire Line
@@ -1918,4 +1893,23 @@ F 12 "Active" H 1700 7800 60  0001 L CNN "Status"
 	1    1500 6600
 	1    0    0    -1  
 $EndComp
+$Comp
+L Connector_Generic:Conn_02x16_Odd_Even J5
+U 1 1 5E345E6E
+P 9900 4800
+F 0 "J5" H 9950 5717 50  0000 C CNN
+F 1 "M20-8762042" H 9950 5626 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_2x16_P2.54mm_Vertical_SMD" H 9900 4800 50  0001 C CNN
+F 3 "~" H 9900 4800 50  0001 C CNN
+	1    9900 4800
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9600 4700 9700 4700
+Connection ~ 9600 4700
+Wire Wire Line
+	9600 4700 9600 5750
+Wire Wire Line
+	10300 4400 10300 5750
+Connection ~ 10300 4400
 $EndSCHEMATC
