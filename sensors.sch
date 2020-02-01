@@ -94,28 +94,10 @@ Wire Wire Line
 Connection ~ 8750 4000
 Wire Wire Line
 	7900 3400 7900 3200
-$Comp
-L power:+3V3 #PWR061
-U 1 1 5E4A8209
-P 7750 2700
-F 0 "#PWR061" H 7750 2550 50  0001 C CNN
-F 1 "+3V3" H 7765 2873 50  0000 C CNN
-F 2 "" H 7750 2700 50  0001 C CNN
-F 3 "" H 7750 2700 50  0001 C CNN
-	1    7750 2700
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	7900 2900 7900 2800
 Wire Wire Line
-	7900 2800 7750 2800
-Wire Wire Line
 	7600 2800 7600 2900
-Wire Wire Line
-	7750 2700 7750 2800
-Connection ~ 7750 2800
-Wire Wire Line
-	7750 2800 7600 2800
 Text Notes 6300 4050 0    50   ~ 0
 SDO tied to zero means that in I2C mode\nthe sensor will have address 1110110
 Wire Wire Line
@@ -123,13 +105,7 @@ Wire Wire Line
 Wire Wire Line
 	8300 3600 8200 3600
 Wire Wire Line
-	8200 3000 8750 3000
-Wire Wire Line
-	8750 3000 8750 3100
-Wire Wire Line
 	8100 3500 8300 3500
-Wire Wire Line
-	8200 3000 8200 3600
 Wire Wire Line
 	8100 4000 8650 4000
 Wire Wire Line
@@ -160,16 +136,6 @@ Wire Wire Line
 	7450 3400 7900 3400
 Wire Wire Line
 	7450 3700 8300 3700
-Wire Wire Line
-	8850 3100 8850 3000
-Wire Wire Line
-	8850 3000 8750 3000
-Connection ~ 8750 3000
-Wire Wire Line
-	9100 3350 9100 3000
-Wire Wire Line
-	9100 3000 8850 3000
-Connection ~ 8850 3000
 $Comp
 L Device:C C34
 U 1 1 5E4B2601
@@ -181,11 +147,6 @@ F 3 "~" H 9550 3500 50  0001 C CNN
 	1    9550 3500
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	9550 3350 9550 3000
-Wire Wire Line
-	9550 3000 9100 3000
-Connection ~ 9100 3000
 Wire Wire Line
 	8850 4000 9100 4000
 Wire Wire Line
@@ -199,16 +160,14 @@ Connection ~ 9100 4000
 $Comp
 L power:+3V3 #PWR062
 U 1 1 5E4B6048
-P 9100 2500
-F 0 "#PWR062" H 9100 2350 50  0001 C CNN
-F 1 "+3V3" H 9115 2673 50  0000 C CNN
-F 2 "" H 9100 2500 50  0001 C CNN
-F 3 "" H 9100 2500 50  0001 C CNN
-	1    9100 2500
+P 9100 2300
+F 0 "#PWR062" H 9100 2150 50  0001 C CNN
+F 1 "+3V3" H 9115 2473 50  0000 C CNN
+F 2 "" H 9100 2300 50  0001 C CNN
+F 3 "" H 9100 2300 50  0001 C CNN
+	1    9100 2300
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	9100 2900 9100 3000
 Text HLabel 7450 3300 0    50   Input ~ 0
 BMP_SCL
 Text HLabel 7450 3400 0    50   BiDi ~ 0
@@ -218,27 +177,22 @@ BMP_INT
 Wire Wire Line
 	8650 4500 9900 4500
 Wire Wire Line
-	9900 4500 9900 3000
-Wire Wire Line
-	9900 3000 9550 3000
-Wire Wire Line
 	8650 4400 8650 4500
-Connection ~ 9550 3000
 Wire Wire Line
 	9100 4000 9100 4100
 $Comp
 L Device:R R50
 U 1 1 5EC5840F
-P 9100 2750
-F 0 "R50" H 9170 2796 50  0000 L CNN
-F 1 "0" H 9170 2705 50  0000 L CNN
-F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 9030 2750 50  0001 C CNN
-F 3 "~" H 9100 2750 50  0001 C CNN
-	1    9100 2750
+P 9100 2550
+F 0 "R50" H 9170 2596 50  0000 L CNN
+F 1 "0" H 9170 2505 50  0000 L CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 9030 2550 50  0001 C CNN
+F 3 "~" H 9100 2550 50  0001 C CNN
+	1    9100 2550
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	9100 2500 9100 2600
+	9100 2300 9100 2400
 $Comp
 L Device:C C30
 U 1 1 5EC5B4FF
@@ -399,16 +353,14 @@ Wire Wire Line
 $Comp
 L power:PWR_FLAG #FLG0106
 U 1 1 5E3AD934
-P 8750 2900
-F 0 "#FLG0106" H 8750 2975 50  0001 C CNN
-F 1 "PWR_FLAG" H 8750 3073 50  0000 C CNN
-F 2 "" H 8750 2900 50  0001 C CNN
-F 3 "~" H 8750 2900 50  0001 C CNN
-	1    8750 2900
+P 8200 2700
+F 0 "#FLG0106" H 8200 2775 50  0001 C CNN
+F 1 "PWR_FLAG" H 8200 2873 50  0000 C CNN
+F 2 "" H 8200 2700 50  0001 C CNN
+F 3 "~" H 8200 2700 50  0001 C CNN
+	1    8200 2700
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	8750 2900 8750 3000
 $Comp
 L power:PWR_FLAG #FLG0107
 U 1 1 5E3AF8FB
@@ -425,4 +377,40 @@ Wire Wire Line
 Connection ~ 3350 2750
 Wire Wire Line
 	3350 2750 4150 2750
+Wire Wire Line
+	7600 2800 7900 2800
+Wire Wire Line
+	7900 2800 8200 2800
+Connection ~ 7900 2800
+Connection ~ 9550 2800
+Connection ~ 9100 2800
+Wire Wire Line
+	9100 2800 9550 2800
+Connection ~ 8200 2800
+Wire Wire Line
+	8200 2800 8750 2800
+Wire Wire Line
+	8200 2800 8200 3600
+Wire Wire Line
+	9100 2800 9100 3350
+Wire Wire Line
+	8850 2800 8850 3100
+Connection ~ 8850 2800
+Wire Wire Line
+	8850 2800 9100 2800
+Wire Wire Line
+	8750 2800 8750 3100
+Connection ~ 8750 2800
+Wire Wire Line
+	8750 2800 8850 2800
+Wire Wire Line
+	9550 2800 9900 2800
+Wire Wire Line
+	9900 2800 9900 4500
+Wire Wire Line
+	9550 2800 9550 3350
+Wire Wire Line
+	9100 2700 9100 2800
+Wire Wire Line
+	8200 2700 8200 2800
 $EndSCHEMATC
