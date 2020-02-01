@@ -1028,7 +1028,7 @@ Wire Wire Line
 Wire Wire Line
 	8650 2650 8650 2700
 Text GLabel 1350 4500 0    50   Input ~ 0
-VIN
+VINP
 Wire Wire Line
 	1100 4950 1200 4950
 Wire Wire Line
