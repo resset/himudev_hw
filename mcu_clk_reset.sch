@@ -1161,9 +1161,9 @@ F 3 "" H 1000 6000 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	1000 6000 1000 6100
-Text Label 9500 4500 2    50   ~ 0
+Text Label 9500 5600 2    50   ~ 0
 WAKE
-Text Label 10400 4500 0    50   ~ 0
+Text Label 9500 5500 2    50   ~ 0
 nRESET
 Wire Wire Line
 	9500 4500 9700 4500
@@ -1278,9 +1278,9 @@ Wire Wire Line
 	5600 2500 5700 2500
 Wire Wire Line
 	5700 2600 5600 2600
-Text Label 9500 5300 2    50   ~ 0
+Text Label 9500 5100 2    50   ~ 0
 GPIO_10
-Text Label 10400 5300 0    50   ~ 0
+Text Label 10400 5100 0    50   ~ 0
 GPIO_9
 Wire Wire Line
 	5600 2700 6100 2700
@@ -1318,31 +1318,31 @@ Wire Wire Line
 	5600 3700 6550 3700
 Text Label 5700 3700 0    50   ~ 0
 GPIO_17
-Text Label 10400 5000 0    50   ~ 0
+Text Label 10400 4800 0    50   ~ 0
 GPIO_17
-Text Label 9500 5100 2    50   ~ 0
+Text Label 9500 4900 2    50   ~ 0
 GPIO_16
-Text Label 10400 5100 0    50   ~ 0
+Text Label 10400 4900 0    50   ~ 0
 GPIO_13
-Text Label 9500 5200 2    50   ~ 0
+Text Label 9500 5000 2    50   ~ 0
 GPIO_12
-Text Label 10400 5200 0    50   ~ 0
+Text Label 10400 5000 0    50   ~ 0
 GPIO_11
-Text Label 9500 5400 2    50   ~ 0
+Text Label 9500 5200 2    50   ~ 0
 GPIO_5
-Text Label 10400 5400 0    50   ~ 0
+Text Label 10400 5200 0    50   ~ 0
 GPIO_4
-Text Label 9500 5500 2    50   ~ 0
+Text Label 9500 5300 2    50   ~ 0
 GPIO_3
-Text Label 10400 5500 0    50   ~ 0
+Text Label 10400 5300 0    50   ~ 0
 GPIO_2
-Text Label 9500 5600 2    50   ~ 0
+Text Label 9500 5400 2    50   ~ 0
 GPIO_1
-Text Label 10400 5600 0    50   ~ 0
+Text Label 10400 5400 0    50   ~ 0
 GPIO_0
-Text Label 9500 4600 2    50   ~ 0
+Text Label 10400 5500 0    50   ~ 0
 PMU_OUT_0
-Text Label 10400 4600 0    50   ~ 0
+Text Label 10400 5600 0    50   ~ 0
 PMU_OUT_1
 Wire Wire Line
 	9600 4400 9600 4700
@@ -1412,17 +1412,17 @@ Text Label 5700 4200 0    50   ~ 0
 GPIO_22
 Text Label 5700 4300 0    50   ~ 0
 GPIO_23
-Text Label 9500 5000 2    50   ~ 0
-GPIO_18
-Text Label 10400 4900 0    50   ~ 0
-GPIO_19
-Text Label 9500 4900 2    50   ~ 0
-GPIO_20
-Text Label 10400 4800 0    50   ~ 0
-GPIO_21
 Text Label 9500 4800 2    50   ~ 0
-GPIO_22
+GPIO_18
 Text Label 10400 4700 0    50   ~ 0
+GPIO_19
+Text Label 9500 4600 2    50   ~ 0
+GPIO_20
+Text Label 10400 4600 0    50   ~ 0
+GPIO_21
+Text Label 9500 4500 2    50   ~ 0
+GPIO_22
+Text Label 10400 4500 0    50   ~ 0
 GPIO_23
 Wire Wire Line
 	8950 950  8950 1000
@@ -1912,4 +1912,16 @@ Wire Wire Line
 	9100 4300 9100 4000
 Wire Wire Line
 	9100 4300 9700 4300
+Text Label 3000 3200 2    50   ~ 0
+QSPI_0
+Text Label 3000 3300 2    50   ~ 0
+QSPI_1
+Text Label 3000 3400 2    50   ~ 0
+QSPI_2
+Text Label 3000 3500 2    50   ~ 0
+QSPI_3
+Text Label 3000 3600 2    50   ~ 0
+QSPI_CS
+Text Label 2750 3100 2    50   ~ 0
+QSPI_SCK
 $EndSCHEMATC
