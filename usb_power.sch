@@ -1365,4 +1365,8 @@ Connection ~ 1600 3250
 Wire Wire Line
 	1450 3350 1450 3250
 Connection ~ 1450 3250
+Text Label 4000 2550 2    50   ~ 0
+FTDI_USB_D+
+Text Label 4000 2450 2    50   ~ 0
+FTDI_USB_D-
 $EndSCHEMATC
