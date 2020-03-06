@@ -1319,9 +1319,9 @@ Wire Wire Line
 Text Label 5700 3700 0    50   ~ 0
 GPIO_17
 Text Label 10400 4800 0    50   ~ 0
-GPIO_17
+CONSOLE_TX
 Text Label 9500 4900 2    50   ~ 0
-GPIO_16
+CONSOLE_RX
 Text Label 10400 4900 0    50   ~ 0
 GPIO_13
 Text Label 9500 5000 2    50   ~ 0
@@ -1400,30 +1400,6 @@ Wire Wire Line
 	5600 4200 6100 4200
 Wire Wire Line
 	5600 4300 6100 4300
-Text Label 5700 3800 0    50   ~ 0
-GPIO_18
-Text Label 5700 3900 0    50   ~ 0
-GPIO_19
-Text Label 5700 4000 0    50   ~ 0
-GPIO_20
-Text Label 5700 4100 0    50   ~ 0
-GPIO_21
-Text Label 5700 4200 0    50   ~ 0
-GPIO_22
-Text Label 5700 4300 0    50   ~ 0
-GPIO_23
-Text Label 9500 4800 2    50   ~ 0
-GPIO_18
-Text Label 10400 4700 0    50   ~ 0
-GPIO_19
-Text Label 10400 4600 0    50   ~ 0
-GPIO_20
-Text Label 9500 4600 2    50   ~ 0
-GPIO_21
-Text Label 10400 4500 0    50   ~ 0
-GPIO_22
-Text Label 9500 4500 2    50   ~ 0
-GPIO_23
 Wire Wire Line
 	8950 950  8950 1000
 $Comp
@@ -1924,4 +1900,20 @@ Text Label 3000 3600 2    50   ~ 0
 QSPI_CS
 Text Label 2750 3100 2    50   ~ 0
 QSPI_SCK
+Text Label 9500 4800 2    50   ~ 0
+UART_TX
+Text Label 10400 4700 0    50   ~ 0
+LED_2_GREEN
+Text Label 10400 4600 0    50   ~ 0
+LED_1_RED
+Text Label 9500 4600 2    50   ~ 0
+LED_3_BLUE
+Text Label 10400 4500 0    50   ~ 0
+LED_4_YELLOW
+Text Label 9500 4500 2    50   ~ 0
+UART_RX
+Text Label 3100 2400 2    50   ~ 0
+XTAL_P
+Text Label 3100 2500 2    50   ~ 0
+XTAL_N
 $EndSCHEMATC
