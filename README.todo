@@ -1,0 +1,12 @@
+☐ Fix U4 footprint.
+☐ Rotate Y1 by 90 deg. (See HiFive1 Rev. B01.)
+☐ Move J4 up by X mm (TODO: measure).
+☐ FTDI TX diode is D3 and should be orange, not green. D4 should be changed as well.
+☐ Fix R26 and R27 values (need to try out few resistors).
+☐ Test USB suspend and decide whether to remove D7 or not.
+☐ Reorder power LEDs in schematics, change annotations.
+☐ Add labels:
+    ☐ LEDs
+    ☐ buttons
+    ☐ test points
+☐ MAYBE: change D1 to 0603 package.
