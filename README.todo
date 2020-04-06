@@ -1,4 +1,4 @@
-☐ Reorder power LEDs in schematics, change annotations.
+✔ Reorder power LEDs in schematics, change annotations. @done (7.04.2020, 00:08:41)
 ☐ Fix U4 footprint.
 ☐ Rotate Y1 by 90 deg. (See HiFive1 Rev. B01.)
 ☐ Move J4 up by X mm (TODO: measure).
@@ -11,3 +11,4 @@
     ☐ test points
 ☐ MAYBE: change D1 to 0603 package.
 ☐ MAYBE: We do not need those 30 mil power traces.
+☐ MAYBE: move S1 and S2 up a little.
