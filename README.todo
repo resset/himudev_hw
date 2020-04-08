@@ -3,12 +3,14 @@
 ☐ Fix U4 footprint.
 ☐ Rotate Y1 by 90 deg. (See HiFive1 Rev. B01.)
 ☐ Move J4 up by X mm (TODO: measure).
+    ☐ Cut USB opening in the enclosure.
 ☐ Fix R25 and R26 values (need to try out few resistors).
 ☐ Test USB suspend and decide whether to remove D6 or not.
 ☐ Add labels:
     ☐ LEDs
     ☐ buttons
     ☐ test points
-☐ MAYBE: change D1 to 0603 package.
+☐ MAYBE: Change D1 to 0603 package.
 ☐ MAYBE: We do not need those 30 mil power traces.
-☐ MAYBE: move S1 and S2 up a little.
+☐ MAYBE: Move S1 and S2 up a little.
+☐ MAYBE: Switch places of D3 and D4.
