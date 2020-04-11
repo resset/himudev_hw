@@ -1,15 +1,16 @@
 ✔ Reorder power LEDs in schematics, change annotations. @done (7.04.2020, 00:08:41)
 ✔ FTDI TX diode is D3 and should be orange, not green. D4 should be changed as well. @done (7.04.2020, 00:14:50)
+✔ Fix R25 and R26 values (need to try out few resistors).
 ☐ Fix U4 footprint.
 ☐ Rotate Y1 by 90 deg. (See HiFive1 Rev. B01.)
-☐ Move J4 up by X mm (TODO: measure).
-    ☐ Cut USB opening in the enclosure.
-☐ Fix R25 and R26 values (need to try out few resistors).
+☐ Move J4 up by 1 mm.
+    ✔ Cut USB opening in the enclosure.
 ☐ Test USB suspend and decide whether to remove D6 or not.
 ☐ Add labels:
     ☐ LEDs
     ☐ buttons
     ☐ test points
+☐ MAYBE: Change D13 resistor to 560.
 ☐ MAYBE: Change D1 to 0603 package.
 ☐ MAYBE: We do not need those 30 mil power traces.
 ☐ MAYBE: Move S1 and S2 up a little.
