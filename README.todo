@@ -10,8 +10,9 @@
     ☐ LEDs
     ☐ buttons
     ☐ test points
+✔ Add 10k pull-downs on MCU LED outputs. (13.04.2020, 18:14:51)
+☐ Switch places of D3 and D4.
 ☐ MAYBE: Change D13 resistor to 560.
 ☐ MAYBE: Change D1 to 0603 package.
 ☐ MAYBE: We do not need those 30 mil power traces.
 ☐ MAYBE: Move S1 and S2 up a little.
-☐ MAYBE: Switch places of D3 and D4.
