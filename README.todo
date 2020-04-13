@@ -1,6 +1,8 @@
 ✔ Reorder power LEDs in schematics, change annotations. @done (7.04.2020, 00:08:41)
 ✔ FTDI TX diode is D3 and should be orange, not green. D4 should be changed as well. @done (7.04.2020, 00:14:50)
 ✔ Fix R25 and R26 values (need to try out few resistors).
+✔ Add 10k pull-downs on MCU LED outputs. @done (13.04.2020, 18:14:51)
+✔ Switch places of D3 and D4. @done (13.04.2020, 18:36:35)
 ☐ Fix U4 footprint.
 ☐ Rotate Y1 by 90 deg. (See HiFive1 Rev. B01.)
 ☐ Move J4 up by 1 mm.
@@ -10,8 +12,6 @@
     ☐ LEDs
     ☐ buttons
     ☐ test points
-✔ Add 10k pull-downs on MCU LED outputs. (13.04.2020, 18:14:51)
-☐ Switch places of D3 and D4.
 ☐ MAYBE: Change D13 resistor to 560.
 ☐ MAYBE: Change D1 to 0603 package.
 ☐ MAYBE: We do not need those 30 mil power traces.
