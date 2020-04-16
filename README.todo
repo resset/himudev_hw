@@ -5,9 +5,9 @@
 ✔ Switch places of D3 and D4. @done (13.04.2020, 18:36:35)
 ✔ Move J4 up by 1 mm.
     ✔ Cut USB opening in the enclosure.
+✘ Test USB suspend and decide whether to remove D6 or not.
 ☐ Fix U4 footprint.
 ☐ Rotate Y1 by 90 deg. (See HiFive1 Rev. B01.)
-☐ Test USB suspend and decide whether to remove D6 or not.
 ☐ Add labels:
     ☐ LEDs
     ☐ buttons
