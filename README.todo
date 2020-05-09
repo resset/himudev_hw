@@ -12,7 +12,7 @@
 ☐ Add labels:
     ☐ LEDs
     ☐ buttons
-    ☐ test points
+    ✔ test points
 ☐ MAYBE: Change D13 resistor to 560.
 ☐ MAYBE: Change D1 to 0603 package.
 ☐ MAYBE: We do not need those 30 mil power traces.
