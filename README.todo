@@ -11,7 +11,7 @@
 ☐ Fix U4 footprint.
 ☐ Add labels:
     ☐ LEDs
-    ☐ buttons
+    ✔ buttons
     ✔ test points
 ☐ MAYBE: Change D13 resistor to 560.
 ☐ MAYBE: Change D1 to 0603 package.
