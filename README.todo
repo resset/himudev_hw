@@ -8,8 +8,9 @@
 ✘ Test USB suspend and decide whether to remove D6 or not.
 ✘ Rotate Y1 by 90 deg. (See HiFive1 Rev. B01.)
 ✔ Change IMU supply voltage to 3V3.
-☐ Make Y1 tracks equal length.
 ☐ Fix U4 footprint.
+☐ Fix U6 - U5 signals voltage levels, add level translators.
+☐ Make Y1 tracks equal length.
 ☐ Add labels:
     ☐ LEDs
     ✔ buttons
